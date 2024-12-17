@@ -1,0 +1,9 @@
+// Dependency Graph
+digraph {
+	"org.example":root -> "org.example":module1
+	"org.example":module1 -> "org.example":module3
+	"org.example":root -> "org.example":module2
+	"org.example":module2 -> "org.example":module3
+	"org.example":module2 -> "org.example":module4
+	"org.example":module4 -> "org.example":module5
+}
