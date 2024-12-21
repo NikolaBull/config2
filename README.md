@@ -113,4 +113,4 @@ python -m unittest test_dependency_visualizer.py
 4. Программа отображает граф с помощью Graphviz (если он установлен и настроен).
 
 ## Тесты
-![](image.png)
+![](test.png)
